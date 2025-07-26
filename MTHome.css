@@ -73,7 +73,7 @@ a { text-decoration: none; color: inherit; }
 /* Container: align logo + nav/button */
 .main-nav .container {
   display: flex;
-  align-items: auto;
+  align-items: center;
   justify-content: flex-start;  /* start, not space-between */
   padding: 8px 20px;           /* add a bit of side padding */
 }
@@ -83,17 +83,14 @@ a { text-decoration: none; color: inherit; }
   margin-right: auto;           /* pushes nav + button to far right */
 }
 .main-nav .logo img {
-  height: 10%px;                 /* shrink from 120px to 80px */
+  height: 80px;                 /* shrink from 120px to 80px */
   width: auto;
-  
 }
 
 /* Nav links */
 .main-nav nav {
   display: flex;
   gap: 20px;
-  align-items: center; /* 🔧 Add this line */
-  padding: 10px;
 }
 .main-nav nav a {
   color: var(--color-text-light);   /* make links visible over image */
