@@ -83,7 +83,7 @@ a { text-decoration: none; color: inherit; }
   margin-right: auto;           /* pushes nav + button to far right */
 }
 .main-nav .logo img {
-  height: 70px;                 /* shrink from 120px to 80px */
+  height: 10%px;                 /* shrink from 120px to 80px */
   width: auto;
   
 }
