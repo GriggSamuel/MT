@@ -91,6 +91,7 @@ a { text-decoration: none; color: inherit; }
 .main-nav nav {
   display: flex;
   gap: 20px;
+  align-items: center; /* 🔧 Add this line */
 }
 .main-nav nav a {
   color: var(--color-text-light);   /* make links visible over image */
