@@ -80,7 +80,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Logo: smaller + pinned left */
 .main-nav .logo {
-  margin-right: left;           /* pushes nav + button to far right */
+  margin-left: auto;           /* pushes nav + button to far right */
 }
 .main-nav .logo img {
   height: 80px;                 /* shrink from 120px to 80px */
