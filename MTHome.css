@@ -92,6 +92,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   gap: 20px;
   align-items: center; /* 🔧 Add this line */
+  padding: 10px;
 }
 .main-nav nav a {
   color: var(--color-text-light);   /* make links visible over image */
