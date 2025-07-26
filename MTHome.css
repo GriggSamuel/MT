@@ -72,7 +72,6 @@ a { text-decoration: none; color: inherit; }
 
 /* Container: align logo + nav/button */
 .main-nav .container {
-  display: flex;
   align-items: auto;
   justify-content: flex-start;  /* start, not space-between */
   padding: 8px 20px;           /* add a bit of side padding */
@@ -80,7 +79,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Logo: smaller + pinned left */
 .main-nav .logo {
-  margin-right: auto;           /* pushes nav + button to far right */
+  margin-left: auto;           /* pushes nav + button to far right */
 }
 .main-nav .logo img {
   height: 80px;                 /* shrink from 120px to 80px */
